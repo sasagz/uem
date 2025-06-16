@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universidade Estadual de Maringá (UEM)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #004d40;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background-color: #00695c;
+    }
+
+    nav ul li {
+      margin: 10px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #004d40;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 40px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      color: #00695c;
+      border-bottom: 2px solid #004d40;
+      padding-bottom: 5px;
+    }
+
+    footer {
+      background-color: #004d40;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    a {
+      color: #004d40;
+    }
+
+    img.responsive {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Universidade Estadual de Maringá (UEM)</h1>
+    <img class="responsive" src="uem.jpg" alt="universidade UEM">
+    <nav>
+      <ul>
+        <li><a href="#apresentacao">Apresentação</a></li>
+        <li><a href="#historia">História e Missão</a></li>
+        <li><a href="#cursos">Cursos</a></li>
+        <li><a href="#ingresso">Formas de Ingresso</a></li>
+        <li><a href="#medicina">Curso de Medicina</a></li>
+        <li><a href="#enade">ENADE e Conquistas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="apresentacao">
+      <h2>Apresentação Geral</h2>
+      <p><strong>Nome Completo:</strong> Universidade Estadual de Maringá</p>
+      <p><strong>Sigla:</strong> UEM</p>
+      <p><strong>Localização dos Campi:</strong> Campus principal em Maringá, com unidades em Cianorte, Goioerê, Ivaiporã, entre outros.</p>
+      <p><strong>Mapa dos Campi:</strong> Consulte o site oficial para mais informações.</p>
+      <img class="responsive" src="mapa-campi.jpg" alt="Mapa dos campi da UEM">
+    </section>
+
+    <section id="historia">
+      <h2>História e Missão</h2>
+      <p><strong>História:</strong> Fundada em 1969, a UEM nasceu de um movimento regional para formar profissionais qualificados para o norte do Paraná. Seu surgimento contou com apoio de educadores, empresários e do governo estadual.</p>
+      <p><strong>Missão:</strong> Promover ensino superior de qualidade, com atividades de ensino, pesquisa e extensão, desenvolvendo competências críticas, criativas e éticas.</p>
+    </section>
+
+    <section id="cursos">
+      <h2>Cursos Oferecidos</h2>
+      <h3>Campus Principal (Maringá)</h3>
+      <ul>
+        <li><strong>Ciências Humanas e Sociais:</strong> Psicologia, Serviço Social, Pedagogia, Comunicação Social</li>
+        <li><strong>Ciências Biológicas:</strong> Biologia, Medicina Veterinária, Biotecnologia</li>
+        <li><strong>Ciências Exatas:</strong> Matemática, Física, Química</li>
+        <li><strong>Engenharia:</strong> Civil, Elétrica, Mecânica, Produção</li>
+      </ul>
+      <h3>Outros Campi:</h3>
+      <p>Ofertas em Cianorte, Goioerê, Ivaiporã e outras localidades. Consulte o <a href="https://www.uem.br" target="_blank">site da UEM</a> para a lista atualizada.</p>
+    </section>
+
+    <section id="ingresso">
+      <h2>Formas de Ingresso</h2>
+      <ul>
+        <li>ENEM (via Sisu)</li>
+        <li>Vestibular Próprio</li>
+        <li>Histórico Escolar</li>
+        <li>Programa Paraná+ (cotas para alunos de escolas públicas)</li>
+      </ul>
+    </section>
+
+    <section id="medicina">
+      <h2>Curso: Medicina</h2>
+      <h3>Grade Curricular</h3>
+      <p>Inclui: Anatomia, Fisiologia, Bioquímica, Farmacologia, Patologia, Ginecologia e Obstetrícia, Pediatria, Urgência e Emergência, Clínica Médica, Cirurgia Geral, entre outras.</p>
+      <h3>Corpo Docente</h3>
+      <p>Formado por professores com mestrado e doutorado, além de experiência prática em hospitais e clínicas.</p>
+      <h3>Estrutura Física</h3>
+      <ul>
+        <li>Laboratórios modernos</li>
+        <li>Salas de aula equipadas</li>
+        <li>Ambientes de simulação médica</li>
+        <li>Hospitais universitários</li>
+      </ul>
+      <img class="responsive" src="medicina-uem.jpg" alt="Curso de Medicina da UEM">
+    </section>
+
+    <section id="enade">
+      <h2>Nota do ENADE e Conquistas</h2>
+      <p>A UEM tem ótimo desempenho no ENADE, com destaque para:</p>
+      <ul>
+        <li>Curso de Medicina</li>
+        <li>Faculdade de Engenharia</li>
+        <li>Pedagogia, Psicologia e Física</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Universidade Estadual de Maringá - <a href="https://www.uem.br" target="_blank">www.uem.br</a></p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', () => {
+        console.log(`Seção acessada: ${link.textContent}`);
+      });
+    });
+  </script>
+</body>
+</html>
